@@ -23,8 +23,8 @@ public static void main(String[] args) {
 
         int i = 0;
         int j = charArray.length - 1;
+		
         while (i < j) {
-          
             char temp = charArray[i];
             charArray[i] = charArray[j];
             charArray[j] = temp;          
