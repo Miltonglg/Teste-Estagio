@@ -8,7 +8,7 @@ public class ProgramFibbonaci {
 
 	 Scanner sc = new Scanner (System.in);
 		
-      System.out.print("informe um para verificar se pertence à sequência de Fibonacci: ");
+          System.out.print("informe um para verificar se pertence à sequência de Fibonacci: ");
 	  int num = sc.nextInt();
 	       
 	  if (pertenceSequencia(num)) {
